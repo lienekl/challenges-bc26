@@ -10,9 +10,8 @@ header {
     width: 100%;
     text-align: center;
     padding: 30px;
-    color: #000000;
     font-size: 14px;
-    margin:auto;
+    margin: auto;
 }
 
 h1 {
@@ -33,7 +32,8 @@ h5 {
 
 img {
     width: 150px;
-    padding-bottom: 15px;;
+    padding-bottom: 15px;
+    ;
 }
 
 
@@ -56,20 +56,17 @@ main {
     text-align: center;
 }
 
-.bio {
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
 #about {
     text-align: center;
 
 }
 
-.column {
-    display: inline-block;
-    margin: auto;
+
+.bio {
+    width: 80%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .projects {
@@ -90,58 +87,57 @@ form {
 input [type=text] {
     width: 100%;
     padding: 15px;
-
-
 }
 
 label {
-    display:block;
+    display: inline;
     margin: auto;
-    color:#FDFBD4;
+    color: #FDFBD4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
 }
 
 input[type=text] {
-  width: 80%;
-  padding: 10px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  box-sizing: border-box;
+    width: 80%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
 }
 
 input[type=email] {
-  width: 80%;
-  padding: 10px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  box-sizing: border-box;
-}
-
-input[type=textarea] {
-  width: 80%;
-  padding: 20px 10px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  box-sizing: border-box;
+    width: 80%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
 }
 
 input[type=button] {
-  width: 60%;
-  background-color: #FDFBD4;
-  color: #5D6532;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 16px;
-  padding: 14px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
+    width: 60%;
+    background-color: #FDFBD4;
+    color: #5D6532;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 30px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 5px;
 }
 
 /* Footer Section Styles */
